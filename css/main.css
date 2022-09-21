@@ -11,8 +11,8 @@
   }
   .clearfix:after { content:''; clear:both; display:block;}
   .animation{
-    margin-top: 2126px;
-    margin-right: 720px
+    margin-top: 2124px;
+    margin-right: 712px
   }
   .progress-bar {
       position: relative;
@@ -20,6 +20,15 @@
       height: 6px;
       margin:3em auto;
       border:1px solid #A4CACA
+  }
+  .progress-bar:nth-child(2){
+margin-top: 57px;
+  }
+  .progress-bar:nth-child(3){
+margin-top: 60px;
+  }
+  .progress-bar:nth-child(4){
+margin-top: 56px;
   }
   .progress-bar .bar{
       position: absolute;
