@@ -10,11 +10,14 @@
       list-style: none;
   }
   .clearfix:after { content:''; clear:both; display:block;}
-  
+  .animation{
+    margin-top: 2126px;
+    margin-right: 720px
+  }
   .progress-bar {
       position: relative;
-      width: 400px;
-      height: 10px;
+      width: 480px;
+      height: 6px;
       margin:3em auto;
       border:1px solid #A4CACA
   }
