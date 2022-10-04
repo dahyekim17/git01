@@ -1,42 +1,376 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kdh_portfolio</title>
-    <link rel="stylesheet" href="css/main.css">
-    <script src='https://code.jquery.com/jquery-1.12.4.min.js'></script>
-    <script src="js/main.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>김다혜 포트폴리오</title>
 
+    <meta property="og:title" content="발전하는 신입 퍼블리셔 김다혜의 포트폴리오입니다" />
+    <meta property="og:url" content="http://www.mango.dothome.co.kr" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="김다혜의 포트폴리오" />
+    <meta property="og:description" content="오늘보다는 내일 더 성장하는 것이 목표인 퍼블리셔의 포트폴리오입니다." />
 
-    <style>
-        body{
-            background: url(./img/kdh.png);height: 7282px;
-        }
-    </style>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="발전하는 신입 퍼블리셔 김다혜의 포트폴리오입니다" />
+    <meta name="twitter:description" content="오늘보다는 내일 더 성장하는 것이 목표인 퍼블리셔의 포트폴리오입니다." />
+
+    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="css/dark.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
 </head>
+
 <body>
-    <div class="wrap">
-        <div class="animation">
-            <div class="progress-bar">
-                <div class="bar"></div>
-                <div class="rate" data-rate="85"></div>
-            </div>
-            <div class="progress-bar">
-                <div class="bar"></div>
-                <div class="rate" data-rate="75"></div>
-            </div>
-            <div class="progress-bar">
-                <div class="bar"></div>
-                <div class="rate" data-rate="90"></div>
-            </div>
-            <div class="progress-bar">
-                <div class="bar"></div>
-                <div class="rate" data-rate="90"></div>
+
+
+
+    <div class="kdh_all_wrap" data-magic-cursor="">
+        <div class="kdh_modalbox_news">
+            <div class="box_inner">
+                <div class="close">
+              </div>
+                <div class="description_wrap"></div>
             </div>
         </div>
-    
+
+
+        <div class="kdh_modalbox_service">
+            <div class="box_inner">
+                <div class="close">
+              </div>
+                <div class="description_wrap"></div>
+            </div>
+        </div>
+
+
+        <div class="kdh_topbar">
+            <div class="in">
+                <div class="topbar_inner">
+                    <div class="logo">
+                    </div>
+                    <div class="menu">
+                        <ul class="anchor_nav">
+                            <li class="current">
+                                <a href="#home">
+                                    <span class="first">Home</span>
+                                    <span class="second">Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about">
+                                    <span class="first">About</span>
+                                    <span class="second">About</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#service">
+                                    <span class="first">
+                                        Project</span>
+                                    <span class="second">
+                                        Project</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">
+                                    <span class="first">Video</span>
+                                    <span class="second">Video</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#news">
+                                    <span class="first">Contact</span>
+                                    <span class="second">Contact</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact">
+                                    <span class="wrapper">
+                                        <span class="first">Contact</span>
+                                        <span class="second">Contact</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="kdh_mobile_menu">
+            <div class="mobile_menu_inner">
+                <div class="container">
+                    <div class="mobile_in">
+                        <div class="logo">
+                        </div>
+                        <div class="my_trigger">
+                            <div class="hamburger hamburger--collapse-r">
+                                <div class="hamburger-box">
+                                    <div class="hamburger-inner"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <div class="container">
+                    <div class="dropdown_inner">
+                        <ul class="anchor_nav">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#Project">Project</a></li>
+                            <li><a href="#Video">Video</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="kdh_hero" id="home">
+            <div class="background">
+                <div class="overlay"></div>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="content_inner">
+                        <h3 class="name">Hi! I'm Kimdahye</h3>
+                        <h3 class="job">영상 & 코딩<br />크리에이티브한<br /> <span>퍼블리셔 김다혜</span></h3>
+                        <div class="mobile_social">
+                        </div>
+                        <div class="kdh_button">
+                            <a class="anchor" href="#about">
+                                <span class="wrapper">
+                                    <span class="first">이력서 보기</span>
+                                    <span class="second">이력서 보기</span>
+                                </span>
+                            </a>
+                            <a class="anchor" href="#about">
+                                <span class="wrapper">
+                                    <span class="first">GIT 바로가기</span>
+                                    <span class="second">GIT 바로가기</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="kdh_about" id="about">
+            <div class="container">
+                <div class="kdh_title_holder">
+                    <span>About Me</span>
+                    <h3>About Me</h3>
+                </div>
+                <div class="about_inner">
+                    <div class="left wow fadeInLeft" data-wow-duration="1.2s">
+                    </div>
+                    <div class="right wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.3s">
+                        <div class="short">
+                            <h3>ADVENTAGE</h3>
+                            <ul>
+                                <li>
+                                    <p><span># 어디서든 적응하는 카멜레온 같은 적응력</span></p>
+                                    <p><span># 카피바라같은 친화력</span></p>
+                                    <p><span># 긍정적인 마인드 </span></p>
+                                    <p><span># 주도적인 문제해결능력 (행동파)</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="extra">
+                            <h3 class="title">Personal Infos</h3>
+                            <div class="list">
+                                <ul>
+                                    <li>
+                                        <p><span>Name :</span> 김다혜</p>
+                                        <p><span>Birth :</span> 1992.03.17</p>
+                                        <p><span>Address :</span> 경기 의왕시</p>
+                                        <p><span>Phone :</span> 010-7740-0972</p>
+                                        <p><span>Email :</span>dh_kim17@naver.com</p>
+                                    </li>
+                                    <li>
+                                        <p><span>Licence </span> </p>
+                                        <p><span>GTQ 포토샵2급</p>
+                                        <p><span>컴퓨터 활용능력2급</p>
+                                        <p><span>전산회계1급</p>
+                                        <p><span>자동차운전면허2종보통</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="kdh_button color">
+                                <span class="wrapper">
+                                </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="kdh_resume">
+                    <div class="main_title">
+                        <h3>SKILL &amp; EXPERIENCE</h3>
+                    </div>
+                    <div class="resume_inner">
+                        <div class="skills wow fadeInLeft" data-wow-duration="1.2s">
+                            <div class="resume_title">
+                              <span>SKILL</span>
+                            </div>
+                            <div class="tokyo_progress">
+                                <div class="progress_inner" data-value="85">
+                                    <span><span class="label">HTML / CSS</span><span class="number">85%</span></span>
+                                    <div class="background">
+                                        <div class="bar">
+                                            <div class="bar_in"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress_inner" data-value="75">
+                                    <span><span class="label">JAVA SCRIPT / JQUERY / REACT</span><span class="number">75%</span></span>
+                                    <div class="background">
+                                        <div class="bar">
+                                            <div class="bar_in"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress_inner" data-value="90">
+                                    <span><span class="label">AFTER EFFECTS / PREMERE PRO</span><span class="number">90%</span></span>
+                                    <div class="background">
+                                        <div class="bar">
+                                            <div class="bar_in"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress_inner" data-value="90">
+                                    <span><span class="label">PHOTOSHOP / ILLUSTRATOR / FIGMA</span><span class="number">90%</span></span>
+                                    <div class="background">
+                                        <div class="bar">
+                                            <div class="bar_in"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="education wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.3s">
+                            <div class="resume_title">
+                               <span> EXPERIENCE</span>
+                            </div>
+                            <div class="edu_list">
+                                <ul>
+                                    <li>
+                                        <p><span>EDUCATION</span> - UX/UI 반응형 웹디자인&웹퍼블리셔 과정 수료 </p>
+                                        <span class="year">2022.06 ~ 2022.10</span>
+                                    </li>
+                                    <li>
+                                        <p><span>EDUCATION</span> - 디지털 영상콘텐츠 제작 수료 [NCS과정] </p>
+                                        <span class="year">2019.08 ~ 2020.02</span>
+                                    </li>
+                                    <li>
+                                        <p><span>EXPERIENCE</span>- (주) 이원오엠에스 영상리사이징 작업 및 미디어파사드 영상편집</p>
+                                        <span class="year">2016.12 ~ 2019.06</span>
+                                    </li>
+                                    <li>
+                                        <p><span>EDUCATION</span> - 멀티미디어 정보과 졸업</p>
+                                        <span class="year">2011.03 ~ 2013.02</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="kdh_services" id="service">
+            <div class="container">
+                <div class="kdh_title_holder">
+                    <span>Services</span>
+                    <h3>PROGRAMS</h3>
+                </div>
+                <div class="service_list">
+                    <ul>
+                        <li class="wow fadeInLeft" data-wow-duration="1.2s">
+                            <div class="list_inner">
+                                <div class="service_title">
+                                    <h3>Design</h3>
+                                </div>
+                                <div class="popup_informations">
+                                    <div class="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.3s">
+                            <div class="list_inner">
+                               <div class="service_title">
+                                    <h3>Coding</h3>
+                                </div>
+                                <div class="popup_informations">
+                                    <div class="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.6s">
+                            <div class="list_inner">
+                          <div class="service_title">
+                                    <h3>Video</h3>
+                                </div>
+                                <div class="popup_informations">
+                                    <div class="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.9s">
+                            <div class="list_inner">
+                          <div class="service_title">
+                                    <h3>Ui/Ux Consultancy</h3>
+                                </div>
+                                <div class="popup_informations">
+                                    <div class="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="kdh_copyright">
+            <div class="container">
+                <div class="inner">
+                    <div class="copy wow fadeInLeft" data-wow-duration="1.2s">
+                        <p>Copyright &copy; 2022. Dahye Kim. All rights reserved.</p>
+                    </div>
+                    <div class="my_totop wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.3s">
+                        <a class="kdh_totop" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mouse-cursor cursor-outer"></div>
+        <div class="mouse-cursor cursor-inner"></div>
+
     </div>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/init.js"></script>
+
 </body>
+
 </html>
