@@ -17,35 +17,14 @@
     <meta name="twitter:title" content="발전하는 신입 퍼블리셔 김다혜의 포트폴리오입니다" />
     <meta name="twitter:description" content="오늘보다는 내일 더 성장하는 것이 목표인 퍼블리셔의 포트폴리오입니다." />
 
-    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
-    <link rel="stylesheet" type="text/css" href="css/dark.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/plugins.css" />
+    <!--  <link rel="stylesheet" type="text/css" href="css/dark.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
 
 </head>
 
 <body>
-
-
-
     <div class="kdh_all_wrap" data-magic-cursor="">
-        <div class="kdh_modalbox_news">
-            <div class="box_inner">
-                <div class="close">
-              </div>
-                <div class="description_wrap"></div>
-            </div>
-        </div>
-
-
-        <div class="kdh_modalbox_service">
-            <div class="box_inner">
-                <div class="close">
-              </div>
-                <div class="description_wrap"></div>
-            </div>
-        </div>
-
-
         <div class="kdh_topbar">
             <div class="in">
                 <div class="topbar_inner">
@@ -66,7 +45,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#service">
+                                <a href="#project">
                                     <span class="first">
                                         Project</span>
                                     <span class="second">
@@ -80,7 +59,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#news">
+                                <a href="#contact">
                                     <span class="first">Contact</span>
                                     <span class="second">Contact</span>
                                 </a>
@@ -99,49 +78,16 @@
             </div>
         </div>
 
-
-        <div class="kdh_mobile_menu">
-            <div class="mobile_menu_inner">
-                <div class="container">
-                    <div class="mobile_in">
-                        <div class="logo">
-                        </div>
-                        <div class="my_trigger">
-                            <div class="hamburger hamburger--collapse-r">
-                                <div class="hamburger-box">
-                                    <div class="hamburger-inner"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="dropdown">
-                <div class="container">
-                    <div class="dropdown_inner">
-                        <ul class="anchor_nav">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#Project">Project</a></li>
-                            <li><a href="#Video">Video</a></li>
-                            <li><a href="#Contact">Contact</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="kdh_hero" id="home">
+        <div class="kdh_home" id="home">
             <div class="background">
+                <div class="image" data-img-url="img/main/main_4.png"></div>
                 <div class="overlay"></div>
             </div>
             <div class="container">
                 <div class="content">
                     <div class="content_inner">
                         <h3 class="name">Hi! I'm Kimdahye</h3>
-                        <h3 class="job">영상 & 코딩<br />크리에이티브한<br /> <span>퍼블리셔 김다혜</span></h3>
+                        <h3 class="period ">영상 & 코딩<br />크리에이티브한<br /> <span>퍼블리셔 김다혜</span></h3>
                         <div class="mobile_social">
                         </div>
                         <div class="kdh_button">
@@ -167,11 +113,12 @@
         <div class="kdh_about" id="about">
             <div class="container">
                 <div class="kdh_title_holder">
-                  
-                    <h3>About Me</h3>
+
+                    <h3>ABOUT ME</h3>
                 </div>
                 <div class="about_inner">
                     <div class="left wow fadeInLeft" data-wow-duration="1.2s">
+                        <div class="image" data-img-url="img/about/about_1.png"></div>
                     </div>
                     <div class="right wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.3s">
                         <div class="short">
@@ -198,17 +145,16 @@
                                     </li>
                                     <li>
                                         <p><span>Licence </span> </p>
-                                        <p><span>GTQ 포토샵2급</p>
-                                        <p><span>컴퓨터 활용능력2급</p>
-                                        <p><span>전산회계1급</p>
-                                        <p><span>자동차운전면허2종보통</p>
+                                        <p><span>GTQ 포토샵2급</span></p>
+                                        <p><span>컴퓨터 활용능력2급</span></p>
+                                        <p><span>전산회계1급</span></p>
+                                        <p><span>자동차운전면허2종보통</span></p>
                                     </li>
                                 </ul>
                             </div>
                             <div class="kdh_button color">
                                 <span class="wrapper">
                                 </span>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -220,7 +166,7 @@
                     <div class="resume_inner">
                         <div class="skills wow fadeInLeft" data-wow-duration="1.2s">
                             <div class="resume_title">
-                              <span>SKILL</span>
+                                <span>SKILL</span>
                             </div>
                             <div class="tokyo_progress">
                                 <div class="progress_inner" data-value="85">
@@ -232,7 +178,8 @@
                                     </div>
                                 </div>
                                 <div class="progress_inner" data-value="75">
-                                    <span><span class="label">JAVA SCRIPT / JQUERY / REACT</span><span class="number">75%</span></span>
+                                    <span><span class="label">JAVA SCRIPT / JQUERY / REACT</span><span
+                                            class="number">75%</span></span>
                                     <div class="background">
                                         <div class="bar">
                                             <div class="bar_in"></div>
@@ -240,7 +187,8 @@
                                     </div>
                                 </div>
                                 <div class="progress_inner" data-value="90">
-                                    <span><span class="label">AFTER EFFECTS / PREMERE PRO</span><span class="number">90%</span></span>
+                                    <span><span class="label">AFTER EFFECTS / PREMERE PRO</span><span
+                                            class="number">90%</span></span>
                                     <div class="background">
                                         <div class="bar">
                                             <div class="bar_in"></div>
@@ -248,7 +196,8 @@
                                     </div>
                                 </div>
                                 <div class="progress_inner" data-value="90">
-                                    <span><span class="label">PHOTOSHOP / ILLUSTRATOR / FIGMA</span><span class="number">90%</span></span>
+                                    <span><span class="label">PHOTOSHOP / ILLUSTRATOR / FIGMA</span><span
+                                            class="number">90%</span></span>
                                     <div class="background">
                                         <div class="bar">
                                             <div class="bar_in"></div>
@@ -259,7 +208,7 @@
                         </div>
                         <div class="education wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.3s">
                             <div class="resume_title">
-                               <span> EXPERIENCE</span>
+                                <span> EXPERIENCE</span>
                             </div>
                             <div class="edu_list">
                                 <ul>
@@ -287,59 +236,323 @@
             </div>
         </div>
 
-
-        <div class="kdh_services" id="service">
+        <div class="kdh_project" id="project">
             <div class="container">
                 <div class="kdh_title_holder">
-                    <h3>PROGRAMS</h3>
+                    <h3>WEB PROJECT</h3>
+                <!--     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, egestas. Id fermentum nullam ipsum
+                        massa.</p> -->
                 </div>
-                <div class="service_list">
-                    <ul>
-                        <li class="wow fadeInLeft" data-wow-duration="1.2s">
+                <div class="project_list">
+                    <div class="owl-carousel">
+                        <div class="item">
                             <div class="list_inner">
-                                <div class="service_title">
-                                    <h3>Design</h3>
+                                <div class="left">
+                                    <a class="main" data-img-url="img/project/moc_1.png"></a>
                                 </div>
-                                <div class="popup_informations">
-                                    <div class="image">
+                                <div class="right">
+                                    <p class="text">코딩을 배우고 가장 먼저 진행했던 클론코딩 프로젝트로 와이어프레임 작업을 거쳐 사이트의 구조를 파악하고 CSS,
+                                        스크립트까지 적용한 저의 첫 웹사이트 입니다. HTML 마크업 작업이 끝난 후 CSS를 적용함에 있어 GNB 위치나 간격 조절, 슬라이더 CSS
+                                        적용 등 작고 디테일한 부분에 들어가는 정성이 생각보다 많이 필요하다고 느낀 작업입니다.</p>
+                                    <div class="details">
+                                        <h3 class="name"><span>중앙선거관리위원회</span></h3>
+                                        <span class="period ">제작기간 : 6주</span>
+                                        <div class="kdh_button">
+                                            <a class="anchor" href="#about">
+                                                <span class="wrapper">
+                                                    <span class="first">GIT 바로가기</span>
+                                                    <span class="second">GIT 바로가기</span>
+                                                </span>
+                                            </a>
+                                            <a class="anchor" href="#about">
+                                                <span class="wrapper">
+                                                    <span class="first">기획서 보기</span>
+                                                    <span class="second">기획서 보기</span>
+                                                </span>
+                                            </a>
+                                        </div>
+
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="list_inner">
+                                <div class="left">
+                                    <a class="main" data-img-url="img/project/moc_1.png"></a>
+                                </div>
+                                <div class="right">
+                                    <p class="text">처음으로 작업한 반응형 웹사이트입니다. flex 속성을 활용하여 배치를 한 것이 특징이고 수업에서 배운 다양한 jQuery
+                                        예제를 활용해 제작한 사이트입니다. flex 속성의 장점을 알 수 있었고 첫 프로젝트에 비해 HTML, CSS에 익숙해져 비교적 수월하게 제작한
+                                        사이트입니다.</p>
+                                    <div class="details">
+                                        <h3 class="name"><span>달콤커피</span></h3>
+                                        <span class="period ">제작기간 : 4주</span>
+                                        <div class="kdh_button">
+                                            <a class="anchor" href="#about">
+                                                <span class="wrapper">
+                                                    <span class="first">GIT 바로가기</span>
+                                                    <span class="second">GIT 바로가기</span>
+                                                </span>
+                                            </a>
+                                            <a class="anchor" href="#about">
+                                                <span class="wrapper">
+                                                    <span class="first">기획서 보기</span>
+                                                    <span class="second">기획서 보기</span>
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="list_inner">
+                                <div class="left">
+
+                                    <a class="main" data-img-url="img/project/moc_1.png"></a>
+                                </div>
+                                <div class="right">
+                                    <p class="text">React를 사용하여 처음으로 제작한 웹사이트입니다. 기존 HTML, CSS, 스크립트 순으로 작업하던 방식과는 달리
+                                        스크립트 기반의 생소한 언어이다보니 처음에는 굉장히 어렵게 느껴졌습니다. 낯선 것들을 하나씩 차근차근 배우면서 다양한 개념들을 알 수 있었고
+                                        무엇보다 API를 활용하여 다른 곳의 데이터를 내
+                                        사이트에 가져와 적용시킬 수 있다는 것이 흥미로웠던 작업입니다.</p>
+                                    <div class="details">
+                                        <h3 class="name"><span>리액트</span></h3>
+                                        <span class="period ">관공서</span>
+                                        <div class="kdh_button">
+                                            <a class="anchor" href="#about">
+                                                <span class="wrapper">
+                                                    <span class="first">GIT 바로가기</span>
+                                                    <span class="second">GIT 바로가기</span>
+                                                </span>
+                                            </a>
+                                            <a class="anchor" href="#about">
+                                                <span class="wrapper">
+                                                    <span class="first">기획서 보기</span>
+                                                    <span class="second">기획서 보기</span>
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="left_nav"><span class="icon"></span></span>
+                    <span class="right_nav"><span class="icon"></span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="kdh_portfolio" id="portfolio">
+            <div class="container">
+                <div class="kdh_title_holder">
+                    <h3>VIDEO PROJECT</h3>
+                <!--     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, egestas. Id fermentum nullam ipsum
+                        massa.</p> -->
+                </div>
+                <div class="portfolio_list">
+                    <ul class="gallery_zoom">
+                        <li class="wow fadeInLeft" data-wow-duration="1.2s">
+                            <div class="list_inner">
+                                <div class="main" data-img-url="img/portfolio/1_kakao.png"></div>
+                                <div class="overlay"></div>
+                                <div class="title">
+                                    <h3>Kakao</h3>
+                                    <span>Ai</span>
+                                </div>
+                                <a class="kdh_full_link popup-youtube"><iframe width="384" height="216"
+                                        src="https://www.youtube.com/embed/sjDtvi-THrw" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></a>
                             </div>
                         </li>
                         <li class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.3s">
                             <div class="list_inner">
-                               <div class="service_title">
-                                    <h3>Coding</h3>
+
+                                <div class="main" data-img-url="img/portfolio/2_air.jpg"></div>
+                                <div class="overlay"></div>
+                                <div class="title">
+                                    <h3>Air</h3>
+                                    <span>cut</span>
                                 </div>
-                                <div class="popup_informations">
-                                    <div class="image">
-                                    </div>
-                                </div>
+                                <a class="kdh_full_link popup-youtube"><iframe width="384" height="216"
+                                        src="https://www.youtube.com/embed/HDBvJV46AJs" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></a>
                             </div>
                         </li>
                         <li class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.6s">
                             <div class="list_inner">
-                          <div class="service_title">
-                                    <h3>Video</h3>
+
+                                <div class="main" data-img-url="img/portfolio/3_rhythm.jpg"></div>
+                                <div class="overlay"></div>
+                                <div class="title">
+                                    <h3>Rhythm </h3>
+                                    <span>motion</span>
                                 </div>
-                                <div class="popup_informations">
-                                    <div class="image">
-                                    </div>
-                                </div>
+                                <a class="kdh_full_link popup-youtube"><iframe width="384" height="216"
+                                        src="https://www.youtube.com/embed/xSh_oprzJAY" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></a>
                             </div>
                         </li>
-                        <li class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.9s">
+                        <li class="wow fadeInLeft" data-wow-duration="1.2s">
                             <div class="list_inner">
-                          <div class="service_title">
-                                    <h3>Ui/Ux Consultancy</h3>
+
+                                <div class="main" data-img-url="img/portfolio/4_iphone.jpg"></div>
+                                <div class="overlay"></div>
+                                <div class="title">
+                                    <h3>Iphone</h3>
+                                    <span>cut</span>
                                 </div>
-                                <div class="popup_informations">
-                                    <div class="image">
-                                    </div>
+                                <a class="kdh_full_link popup-youtube"><iframe width="384" height="216"
+                                        src="https://www.youtube.com/embed/k-eotQoCmck" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></a>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.3s">
+                            <div class="list_inner">
+
+                                <div class="main" data-img-url="img/portfolio/5_Ink.jpg"></div>
+                                <div class="overlay"></div>
+                                <div class="title">
+                                    <h3>Ink</h3>
+                                    <span>effects</span>
                                 </div>
+                                <a class="kdh_full_link popup-youtube"><iframe width="384" height="216"
+                                        src="https://www.youtube.com/embed/fhvMVP_ooFU" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></a>
+
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.6s">
+                            <div class="list_inner">
+
+                                <div class="main" data-img-url="img/portfolio/6_cut.png"></div>
+                                <div class="overlay"></div>
+                                <div class="title">
+                                    <h3>Video edit</h3>
+                                    <span>cut</span>
+                                </div>
+                                <a class="kdh_full_link popup-youtube"><iframe width="384" height="216"
+                                        src="https://www.youtube.com/embed/KekNe2Bmtkk" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></a>
+
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1.2s">
+                            <div class="list_inner">
+
+                                <div class="main" data-img-url="img/portfolio/7_color.png"></div>
+                                <div class="overlay"></div>
+                                <div class="title">
+                                    <h3>709 Data</h3>
+                                    <span>Color</span>
+                                </div>
+                                <a class="kdh_full_link popup-youtube"><iframe width="384" height="216"
+                                        src="https://www.youtube.com/embed/A794M1QxDrI" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></a>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.3s">
+                            <div class="list_inner">
+
+                                <div class="main" data-img-url="img/portfolio/8_LIQUID.png"></div>
+                                <div class="overlay"></div>
+                                <div class="title">
+                                    <h3>Liquid</h3>
+                                    <span>effects</span>
+                                </div>
+                                <a class="kdh_full_link popup-youtube"><iframe width="384" height="216"
+                                        src="https://www.youtube.com/embed/5b7V5Ulz0c0" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></a>
+                            </div>
+                        </li>
+                        <li class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.6s">
+                            <div class="list_inner">
+
+                                <div class="main" data-img-url="img/portfolio/9_camera.jpg"></div>
+                                <div class="overlay"></div>
+                                <div class="title">
+                                    <h3>Camera edit</h3>
+                                    <span>Camera</span>
+                                </div>
+                                <a class="kdh_full_link popup-youtube"><iframe width="384" height="216"
+                                        src="https://www.youtube.com/embed/Nw9l06Nqqaw" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe></a>
+
                             </div>
                         </li>
                     </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="kdh_contact" id="contact">
+            <div class="container">
+                <div class="contact_inner">
+                    <div class="left wow fadeInLeft" data-wow-duration="1.2s">
+                        <div class="kdh_title_holder">
+                            <h3>CONTACT ME</h3>
+                        </div>
+                        <div class="short_list">
+                            <ul>
+
+                                <li><span>010-7740-0972 | </span>dh_kim17@naver.com</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="right wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="0.3s">
+                        <div class="title">
+                            <p>지금까지 카멜레온 김다혜의 포트폴리오를 봐주셔서 감사합니다!<br /><span>빠른 적응력과 긍정적인 영향을 주는 퍼블리셔가 되겠습니다.</span></p>
+                        </div>
+                        <div class="fields">
+                            <form action="/" method="post" class="contact_form" id="contact_form" autocomplete="off">
+                                <div class="returnmessage"
+                                    data-success="Your message has been received, We will contact you soon."></div>
+                                <div class="empty_notice"><span>Please Fill Required Fields</span></div>
+
+                                <div class="kdh_button">
+                                    <a class="anchor" href="#about">
+                                        <span class="wrapper">
+                                            <span class="first">이력서 보기</span>
+                                            <span class="second">이력서 보기</span>
+                                        </span>
+                                    </a>
+                                    <a class="anchor" href="#about">
+                                        <span class="wrapper">
+                                            <span class="first">GIT 바로가기</span>
+                                            <span class="second">GIT 바로가기</span>
+                                        </span>
+                                    </a>
+                                </div>
+
+
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -365,7 +578,6 @@
     </div>
 
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/init.js"></script>

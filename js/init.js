@@ -3,14 +3,12 @@ jQuery(document).ready(function(){
 
 	"use strict";
 	
-	// here all ready functions
-	
 	kdh_owl_carousel();
 	kdh_down();
 	kdh_trigger_menu();
 	kdh_nav_bg();
 	kdh_modalbox_news();
-	kdh_modalbox_service();
+	kdh_modalbox_programs();
 	kdh_cursor();
 	kdh_imgtosvg();
 	kdh_popup();
@@ -25,9 +23,6 @@ jQuery(document).ready(function(){
 	
 });
 
-// -----------------------------------------------------
-// ---------------   FUNCTIONS    ----------------------
-// -----------------------------------------------------
 
 // -----------------------------------------------------
 // ----------------    OWL CAROUSEL    -----------------
@@ -37,7 +32,7 @@ function kdh_owl_carousel(){
 
 	"use strict";
 	
-	var carousel			= jQuery('.kdh_testimonials .owl-carousel');
+	var carousel			= jQuery('.kdh_project .owl-carousel');
 	
 	var rtlMode	= false;
 
@@ -81,7 +76,7 @@ function kdh_down(){
 	"use strict";
 	
 	var topbar		= jQuery('.kdh_topbar').outerHeight();
-	jQuery('.kdh_hero .kdh_button a').on('click',function(){
+	jQuery('.kdh_home .kdh_button a').on('click',function(){
 		if($('.kdh_topbar').length){
 			if($.attr(this, 'href') !== '#'){
 			$('html, body').animate({
@@ -189,30 +184,6 @@ function kdh_nav_bg(){
 
 jQuery('.anchor_nav').onePageNav();
 
-// -----------------------------------------------------
-// ---------------   PRELOADER   -----------------------
-// -----------------------------------------------------
-
-function kdh_preloader(){
-	
-	"use strict";
-	
-	var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
-	var preloader = $('#preloader');
-	
-	if (!isMobile) {
-		setTimeout(function() {
-			preloader.addClass('preloaded');
-		}, 800);
-		setTimeout(function() {
-			preloader.remove();
-		}, 2000);
-
-	} else {
-		preloader.remove();
-	}
-}
-
 // -------------------------------------------------
 // -------------  MODALBOX NEWS  -------------------
 // -------------------------------------------------
@@ -254,15 +225,15 @@ function kdh_modalbox_news(){
 }
 
 // -------------------------------------------------
-// -------------  MODALBOX SERVICE -----------------
+// -------------  MODALBOX programs -----------------
 // -------------------------------------------------
 
-function kdh_modalbox_service(){
+function kdh_modalbox_programs(){
 	
 	"use strict";
 	
-	var modalBox	= jQuery('.kdh_modalbox_service');
-	var list 		= jQuery('.kdh_services ul li');
+	var modalBox	= jQuery('.kdh_modalbox_programs');
+	var list 		= jQuery('.kdh_programs ul li');
 	var closePopup	= modalBox.find('.close');
 	
 	list.each(function(){
@@ -298,7 +269,6 @@ function kdh_my_load(){
 	"use strict";
 	
 	var speed	= 500;
-	setTimeout(function(){kdh_preloader();},speed);
 	setTimeout(function(){jQuery('.kdh_all_wrap').addClass('animate');},speed+2000);
 }
 
@@ -376,19 +346,7 @@ function kdh_popup(){
 	
 	"use strict";
 
-	jQuery('.gallery_zoom').each(function() { // the containers for all your galleries
-		jQuery(this).magnificPopup({
-			delegate: 'a.zoom', // the selector for gallery item
-			type: 'image',
-			gallery: {
-			  enabled:true
-			},
-			removalDelay: 300,
-			mainClass: 'mfp-fade'
-		});
-
-	});
-	jQuery('.popup-youtube, .popup-vimeo').each(function() { // the containers for all your galleries
+	jQuery('.popup-youtube').each(function() { // the containers for all your galleries
 		jQuery(this).magnificPopup({
 			disableOn: 700,
 			type: 'iframe',

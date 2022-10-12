@@ -74,11 +74,11 @@ textarea{
 	width:100%;
 	border:1px solid #eee;
 	
-	-webkit-transition: all .3s ease;
+/* 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	        transition: all .3s ease; */
 }
 input[type="text"],
 input[type="password"],
@@ -105,11 +105,11 @@ input[type="color"],
 		
 	border:1px solid #eee;
 	
-	-webkit-transition: all .3s ease;
+/* 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	        transition: all .3s ease; */
 }
 
 textarea:focus,
@@ -147,11 +147,11 @@ input[type="submit"]{
 	background:#777;
 	font-family: "Mulish";
 	
-	-webkit-transition: all .3s ease;
+/* 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	        transition: all .3s ease; */
 }
 input[type="submit"]:hover{
 	background:#444;
@@ -162,11 +162,11 @@ select{
 }
 input[type="button"]{
 	cursor:pointer;
-	-webkit-transition: all .3s ease;
+/* 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
 	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
+	        transition: all .3s ease; */
 }
 
 
@@ -268,7 +268,6 @@ input[type="button"]{
   animation-name: flash;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @keyframes pulse {
   from {

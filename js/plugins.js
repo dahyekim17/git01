@@ -23,7 +23,7 @@
 			changeHash: false,
 			easing: 'swing',
 			filter: '',
-			scrollSpeed: 100,
+			scrollSpeed: 700,
 			scrollThreshold: 0.15,
 			begin: false,
 			end: false,
@@ -183,9 +183,9 @@
 
 		scrollTo: function(target, callback) {
 			var offset 		= $(target).offset().top;
-			var topbar		= jQuery('.beny_tm_topbar').outerHeight();
+			var topbar		= jQuery('.kdh_topbar').outerHeight();
 			
-			if(jQuery('.beny_tm_topbar').length){
+			if(jQuery('.kdh_topbar').length){
 				$('html, body').animate({
 				scrollTop: offset-topbar+20
 			}, this.config.scrollSpeed, this.config.easing, callback);
