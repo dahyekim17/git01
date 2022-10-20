@@ -1,6 +1,4 @@
 /*
-This file is made by marketify (2021)
-
 01) BASE
 02) FORM ELEMENTS
 03) FONTELLO
@@ -4793,7 +4791,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	-o-animation-name: hinge;
 	animation-name: hinge;
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 
 @-webkit-keyframes rollIn {
 	0% { opacity: 0; -webkit-transform: translateX(-100%) rotate(-120deg); }
@@ -4822,7 +4820,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	-o-animation-name: rollIn;
 	animation-name: rollIn;
 }
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 
 @-webkit-keyframes rollOut {
     0% {
@@ -4879,7 +4877,6 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	animation-name: rollOut;
 }
 
-/* originally authored by Angelo Rohit - https://github.com/angelorohit */
 
 @-webkit-keyframes lightSpeedIn {
 	0% { -webkit-transform: translateX(100%) skewX(-30deg); opacity: 0; }
@@ -4928,7 +4925,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
     animation-duration: 0.5s;
 }
 
-/* originally authored by Angelo Rohit - https://github.com/angelorohit */
+
 
 @-webkit-keyframes lightSpeedOut {
     0% { -webkit-transform: translateX(0%) skewX(0deg); opacity: 1; }
@@ -4969,7 +4966,6 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
     animation-duration: 0.25s;
 }
 
-/* originally authored by Angelo Rohit - https://github.com/angelorohit */
 
 @-webkit-keyframes wiggle {
     0% { -webkit-transform: skewX(9deg); }
