@@ -8,8 +8,6 @@
     <title>김다혜 포트폴리오</title>
 
     <meta property="og:title" content="발전하는 신입 퍼블리셔 김다혜의 포트폴리오입니다" />
-    <meta property="og:url" content="http://www.mango.dothome.co.kr" />
-    <meta property="og:type" content="website" />
     <meta property="og:site_name" content="김다혜의 포트폴리오" />
     <meta property="og:description" content="오늘보다는 내일 더 성장하는 것이 목표인 퍼블리셔의 포트폴리오입니다." />
 
@@ -18,9 +16,12 @@
     <meta name="twitter:description" content="오늘보다는 내일 더 성장하는 것이 목표인 퍼블리셔의 포트폴리오입니다." />
 
     <link rel="stylesheet" href="css/plugins.css" />
-    <!--  <link rel="stylesheet" type="text/css" href="css/dark.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/circle.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto&display=swap');
+       </style>
 
 </head>
 
@@ -68,14 +69,6 @@
                                     <span class="second">Contact</span>
                                 </a>
                             </li>
-                            <!-- <li>
-                                <a href="#contact">
-                                    <span class="wrapper">
-                                        <span class="first">Contact</span>
-                                        <span class="second">Contact</span>
-                                    </span>
-                                </a>
-                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -85,31 +78,16 @@
         <div class="kdh_home" id="home">
 
             <div class="background">
-                <div class="image" data-img-url="img/main/main_4.png"></div>
-                <div class="area" >
-                    <ul class="circles">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                    </ul>
-            </div >
-                <div class="overlay"></div>
+                <div id="area"></div>
+                <div class="image" data-img-url="img/main/d_3_r.png"></div>
             </div>
             <div class="container">
 
                 <div class="content">
                     <div class="content_inner">
-                        <h3 class="name">Hi! I'm Kimdahye</h3>
-                        <h3 class="period ">영상 & 코딩<br />크리에이티브한<br /> <span>퍼블리셔 김다혜</span></h3>
-                        <div class="mobile_social">
-                        </div>
+                 
+                        <h3 class="period ">
+                            코딩 & 영상 <br />크리에이티브한<br /> <span>카블리셔 김다혜</span></h3>
                         <div class="kdh_button">
                             <a class="anchor" href="file/resume.pdf">
                                 <span class="wrapper">
@@ -260,15 +238,46 @@
             <div class="container">
                 <div class="kdh_title_holder">
                     <h3>WEB PROJECT</h3>
-                <!--     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, egestas. Id fermentum nullam ipsum
-                        massa.</p> -->
                 </div>
                 <div class="project_list">
                     <div class="owl-carousel">
                         <div class="item">
                             <div class="list_inner">
                                 <div class="left">
-                                    <a class="main" data-img-url="img/project/pj_1.png"></a>
+
+                                    <a class="main" data-img-url="img/project/pj_3.png"></a>
+                                </div>
+                                <div class="right">
+                                    <p class="text">React를 사용하여 처음으로 제작한 웹사이트입니다. 기존 HTML, CSS, 스크립트 순으로 작업하던 방식과는 달리
+                                        스크립트 기반의 생소한 언어이다보니 처음에는 굉장히 어렵게 느껴졌습니다. 낯선 것들을 하나씩 차근차근 배우면서 다양한 개념들을 알 수 있었고
+                                        무엇보다 API를 활용하여 다른 곳의 데이터를 내
+                                        사이트에 가져와 적용시킬 수 있다는 것이 흥미로웠던 작업입니다.</p>
+                                    <div class="details">
+                                        <h3 class="name"><span>리액트</span></h3>
+                                        <span class="period "></span>
+                                        <div class="kdh_button">
+                                            <a class="anchor" href="#about">
+                                                <span class="wrapper">
+                                                    <span class="first">GIT 바로가기</span>
+                                                    <span class="second">GIT 바로가기</span>
+                                                </span>
+                                            </a>
+                                            <a class="anchor" href="https://dh-shop-app.vercel.app/">
+                                                <span class="wrapper">
+                                                    <span class="first">사이트 보기</span>
+                                                    <span class="second">사이트 보기</span>
+                                                </span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="item">
+                            <div class="list_inner">
+                                <div class="left">
+                                    <a class="main" data-img-url="img/project/pj1_r.png"></a>
                                 </div>
                                 <div class="right">
                                     <p class="text">코딩을 배우고 가장 먼저 진행했던 클론코딩 프로젝트로 와이어프레임 작업을 거쳐 사이트의 구조를 파악하고 CSS,
@@ -327,39 +336,7 @@
                                 </div>
                             </div>
                         </div>
-<!--                         <div class="item">
-                            <div class="list_inner">
-                                <div class="left">
 
-                                    <a class="main" data-img-url="img/project/moc_1.png"></a>
-                                </div>
-                                <div class="right">
-                                    <p class="text">React를 사용하여 처음으로 제작한 웹사이트입니다. 기존 HTML, CSS, 스크립트 순으로 작업하던 방식과는 달리
-                                        스크립트 기반의 생소한 언어이다보니 처음에는 굉장히 어렵게 느껴졌습니다. 낯선 것들을 하나씩 차근차근 배우면서 다양한 개념들을 알 수 있었고
-                                        무엇보다 API를 활용하여 다른 곳의 데이터를 내
-                                        사이트에 가져와 적용시킬 수 있다는 것이 흥미로웠던 작업입니다.</p>
-                                    <div class="details">
-                                        <h3 class="name"><span>리액트</span></h3>
-                                        <span class="period ">관공서</span>
-                                        <div class="kdh_button">
-                                            <a class="anchor" href="#about">
-                                                <span class="wrapper">
-                                                    <span class="first">GIT 바로가기</span>
-                                                    <span class="second">GIT 바로가기</span>
-                                                </span>
-                                            </a>
-                                            <a class="anchor" href="#about">
-                                                <span class="wrapper">
-                                                    <span class="first">기획서 보기</span>
-                                                    <span class="second">기획서 보기</span>
-                                                </span>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
                     </div>
                     <span class="left_nav"><span class="icon"></span></span>
                     <span class="right_nav"><span class="icon"></span></span>
@@ -371,8 +348,7 @@
             <div class="container">
                 <div class="kdh_title_holder">
                     <h3>VIDEO PROJECT</h3>
-                <!--     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, egestas. Id fermentum nullam ipsum
-                        massa.</p> -->
+
                 </div>
                 <div class="portfolio_list">
                     <ul class="gallery_zoom">
@@ -555,13 +531,13 @@
                                 <div class="empty_notice"><span>Please Fill Required Fields</span></div>
 
                                 <div class="kdh_button">
-                                    <a class="anchor" href="#about">
+                                    <a class="anchor" href="file/resume.pdf">
                                         <span class="wrapper">
                                             <span class="first">이력서 보기</span>
                                             <span class="second">이력서 보기</span>
                                         </span>
                                     </a>
-                                    <a class="anchor" href="#about">
+                                    <a class="anchor" href="https://github.com/dahyekim17">
                                         <span class="wrapper">
                                             <span class="first">GIT 바로가기</span>
                                             <span class="second">GIT 바로가기</span>
@@ -601,6 +577,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/mainpop.js"></script>
 
 </body>
 
