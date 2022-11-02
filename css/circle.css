@@ -1,35 +1,25 @@
-/* body의 변수값을 조정해서 container 의 그라디언트를 변경하는 소스 */
 body {
-    margin: 0px;
-    padding: 0px;
-    --hue1: 176;
-    --hue2: 341;
-    --hue3: 250;
-    --hue4: 90;
-  }
-  
-  #area {
-    width: 100vw;
-    height: 100vh;
-    background: radial-gradient(
-        circle at top left,
-        hsla(var(--hue1), 90%, 80%, 0.5),
-        transparent 75%
-      ),
-      radial-gradient(
-        circle at top right,
-        hsla(var(--hue2), 90%, 80%, 0.5),
-        transparent 75%
-      ),
-      radial-gradient(
-        at bottom left,
-        hsla(var(--hue3), 90%, 80%, 0.5),
-        transparent 75%
-      ),
-      radial-gradient(
-        at bottom right,
-        hsla(var(--hue4), 90%, 80%, 0.5),
-        transparent 75%
-      );
-  }
-  
+  margin: 0px;
+  padding: 0px;
+  --hue1: 176;
+  --hue2: 341;
+  --hue3: 250;
+  --hue4: 90;
+}
+
+#area {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at top left,
+      hsla(var(--hue1), 90%, 80%, 0.5),
+      transparent 75%),
+    radial-gradient(circle at top right,
+      hsla(var(--hue2), 90%, 80%, 0.5),
+      transparent 75%),
+    radial-gradient(at bottom left,
+      hsla(var(--hue3), 90%, 80%, 0.5),
+      transparent 75%),
+    radial-gradient(at bottom right,
+      hsla(var(--hue4), 90%, 80%, 0.5),
+      transparent 75%);
+}

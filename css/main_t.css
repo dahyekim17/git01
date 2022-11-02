@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+
+
+.hidden {
+  opacity: 0;
+}
+
+.console-container {
+
+  /* font-family: Khula; */
+  font-family: 'MICEGothic Bold';
+  font-size: 1em;
+  text-align: center;
+  height: 200px;
+  width: 600px;
+  display: block;
+  position: absolute;
+  color: white;
+  top: -80px;
+  bottom: 0;
+  left: -122px;
+  right: 0;
+  margin: auto;
+}
+
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  left: 10px;
+}
