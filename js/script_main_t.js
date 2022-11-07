@@ -1,11 +1,10 @@
-// function([string1, string2],target id,[color1,color2])    
-consoleText(['Coding', 'Video', 'Coding & Video.'], 'text',['#558C9E','#558C9E','#558C9E']);
+consoleText(['Design','Coding', 'Video', 'Coding & Video'], 'text',['#558C9E','#558C9E','#558C9E','#558C9E']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
   var visible = true;
   var con = document.getElementById('console');
-  var letterCount = 1;
+  var letterCount = 2;
   var x = 1;
   var waiting = false;
   var target = document.getElementById(id)

@@ -24,9 +24,9 @@ jQuery(document).ready(function(){
 });
 
 
-// -----------------------------------------------------
+
 // ----------------    OWL CAROUSEL    -----------------
-// -----------------------------------------------------
+
 
 function kdh_owl_carousel(){
 
@@ -67,9 +67,9 @@ function kdh_owl_carousel(){
 	});
 }
 
-// -----------------------------------------------------
+
 // -----------------    DOWN    ------------------------
-// -----------------------------------------------------
+
 
 function kdh_down(){
 	
@@ -95,9 +95,8 @@ function kdh_down(){
 	});
 }
 
-// -------------------------------------------------
+
 // -------------  PROGRESS BAR  --------------------
-// -------------------------------------------------
 
 function tdProgress(container){
 	
@@ -126,9 +125,7 @@ jQuery('.tokyo_progress').each(function() {
 	pWrap.waypoint({handler: function(){tdProgress(pWrap);},offset:'90%'});	
 });
 
-// -----------------------------------------------------
 // ---------------   TRIGGER MENU    -------------------
-// -----------------------------------------------------
 
 function kdh_trigger_menu(){
 	
@@ -158,9 +155,7 @@ function kdh_trigger_menu(){
 	});
 }
 
-// -----------------------------------------------------
 // --------------   TOPBAR BACKGROUND    ---------------
-// -----------------------------------------------------
 
 function kdh_nav_bg(){
 	
@@ -178,15 +173,11 @@ function kdh_nav_bg(){
 	});
 }
 
-// -------------------------------------------------
 // -------------------  ANCHOR ---------------------
-// -------------------------------------------------
 
 jQuery('.anchor_nav').onePageNav();
 
-// -------------------------------------------------
 // -------------  MODALBOX NEWS  -------------------
-// -------------------------------------------------
 
 function kdh_modalbox_news(){
 	
@@ -224,9 +215,7 @@ function kdh_modalbox_news(){
 	});
 }
 
-// -------------------------------------------------
 // -------------  MODALBOX programs -----------------
-// -------------------------------------------------
 
 function kdh_modalbox_programs(){
 	
@@ -260,9 +249,7 @@ function kdh_modalbox_programs(){
 	});
 }
 
-// -----------------------------------------------------
 // -----------------   MY LOAD    ----------------------
-// -----------------------------------------------------
 
 function kdh_my_load(){
 	
@@ -272,15 +259,11 @@ function kdh_my_load(){
 	setTimeout(function(){jQuery('.kdh_all_wrap').addClass('animate');},speed+2000);
 }
 
-// -----------------------------------------------------
 // --------------------    WOW JS    -------------------
-// -----------------------------------------------------
 
  new WOW().init();
 
-// -----------------------------------------------------
 // ------------------   CURSOR    ----------------------
-// -----------------------------------------------------
 
 function kdh_cursor(){
     "use strict";
@@ -304,9 +287,7 @@ function kdh_cursor(){
 	}
 };
 
-// -----------------------------------------------------
 // ---------------    IMAGE TO SVG    ------------------
-// -----------------------------------------------------
 
 function kdh_imgtosvg(){
 	
@@ -319,18 +300,14 @@ function kdh_imgtosvg(){
 		var imgURL			= jQueryimg.attr('src');
 
 		jQuery.get(imgURL, function(data) {
-			// Get the SVG tag, ignore the rest
 			var jQuerysvg = jQuery(data).find('svg');
 
-			// Add replaced image's classes to the new SVG
 			if(typeof imgClass !== 'undefined') {
 				jQuerysvg = jQuerysvg.attr('class', imgClass+' replaced-svg');
 			}
 
-			// Remove any invalid XML tags as per http://validator.w3.org
 			jQuerysvg = jQuerysvg.removeAttr('xmlns:a');
 
-			// Replace image with new SVG
 			jQueryimg.replaceWith(jQuerysvg);
 
 		}, 'xml');
@@ -338,9 +315,7 @@ function kdh_imgtosvg(){
 	});
 }
 
-// -----------------------------------------------------
 // --------------------   POPUP    ---------------------
-// -----------------------------------------------------
 
 function kdh_popup(){
 	
@@ -365,9 +340,7 @@ function kdh_popup(){
 	});
 }
 
-// -----------------------------------------------------
 // ---------------   DATA IMAGES    --------------------
-// -----------------------------------------------------
 
 function kdh_data_images(){
 	
@@ -382,9 +355,7 @@ function kdh_data_images(){
 	});
 }
 
-// -----------------------------------------------------
 // ----------------    CONTACT FORM    -----------------
-// -----------------------------------------------------
 
 function kdh_contact_form(){
 	
@@ -405,7 +376,6 @@ function kdh_contact_form(){
 			jQuery('div.empty_notice').slideDown(500).delay(2000).slideUp(500);
 		}
 		else{
-			// Returns successful data submission message when the entered information is stored in database.
 			jQuery.post("modal/contact.php",{ ajax_name: name, ajax_email: email, ajax_message:message, ajax_subject: subject}, function(data) {
 				
 				jQuery(".contact_form .returnmessage").append(data);//Append returned message to message paragraph
@@ -428,9 +398,7 @@ function kdh_contact_form(){
 	});
 }
 
-// -----------------------------------------------------
 // --------------------    TOTOP    --------------------
-// -----------------------------------------------------
 
 function kdh_totop(){
 	
