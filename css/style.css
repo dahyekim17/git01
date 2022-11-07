@@ -6,14 +6,12 @@
 	font-weight: 700;
 	font-style: normal;
 }
-
 @font-face {
-	font-family: 'Happiness-Sans-Title';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
-
 
 html {
 	overflow-x: hidden;
@@ -158,7 +156,7 @@ h6 {
 
 .kdh_all_wrap.animate .kdh_topbar {
 	top: 0px;
-	transition-delay: 1.2s;
+	transition-delay: 1s;
 }
 
 .kdh_topbar .topbar_inner {
@@ -370,7 +368,7 @@ h6 {
 	opacity: 1;
 	visibility: visible;
 	top: 0px;
-	transition-delay: .3s;
+	transition-delay: 1s;
 }
 
 .kdh_home .content .period span {
@@ -414,39 +412,6 @@ h6 {
 	-ms-transition: all .2s ease;
 	-o-transition: all .2s ease;
 	transition: all .2s ease;
-}
-
-.kdh_all_wrap.animate .kdh_home .mobile_social {
-	opacity: 1;
-	visibility: visible;
-	top: 0px;
-	position: relative;
-	transition-delay: .9s;
-}
-
-.kdh_home .mobile_social ul {
-	margin: 0px;
-	list-style-type: none;
-}
-
-.kdh_home .mobile_social ul li {
-	margin: 0px 10px 0px 0px;
-	display: inline-block;
-}
-
-.kdh_home .mobile_social ul li a {
-	text-decoration: none;
-	color: #0F172A;
-
-	-webkit-transition: all .2s ease;
-	-moz-transition: all .2s ease;
-	-ms-transition: all .2s ease;
-	-o-transition: all .2s ease;
-	transition: all .2s ease;
-}
-
-.kdh_home .mobile_social ul li a:hover {
-	color: #558C9E;
 }
 
 .kdh_button {
@@ -1197,8 +1162,8 @@ h6 {
 }
 
 .kdh_project .item .right .text {
-	font-size: 16px;
-	margin-bottom: 35px;
+	font-size: 15px;
+	margin-bottom: 8px;
 }
 
 .kdh_project .item .right .details {
@@ -1217,28 +1182,46 @@ h6 {
 .kdh_project .item .right .details h3 span {
 	font-size: 16px;
 	position: relative;
-	padding-left: 130px;
+	padding-left: 0px;
+	font-family: 'MICEGothic Bold';
 }
 
 .kdh_project .item .right .details h3 span:before {
 	position: absolute;
 	content: "";
-	width: 100px;
+	width: 410px;
 	height: 2px;
 	background-color: #A4CACA;
 	left: 0px;
-	top: 50%;
+	top: 800%;
 	transform: translateY(-50%);
 }
 
 .kdh_project .item .right .details .period {
-	font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Pretendard-Regular';
 	font-size: 16px;
 	display: block;
-	padding-left: 130px;
+	padding-left: 0px;
 	padding-top: 7px;
 }
+.kdh_project .item .kdh_button a {
+	top: 60px;
+	text-decoration: none;
+	color: #0F172A;
+	font-size: 16px;
+	font-weight: 500;
+	border: 2px solid #7E7E7E;
+	display: inline-block;
+	padding: 5px 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	position: relative;
+}
 
+.kdh_project .item .kdh_button a:hover{
+	color: #558C9E;
+	border-color: #558C9E;
+}
 .kdh_project .left_nav,
 .kdh_project .right_nav {
 	width: 50px;
@@ -1376,7 +1359,7 @@ h6 {
 	width: 100%;
 	float: left;
 	position: relative;
-	right: -426px;
+	right: -448px;
 	bottom: -46px;
 }
 
@@ -1410,6 +1393,7 @@ h6 {
 .kdh_contact .right .title span {
 	color: #0F172A;
 	font-weight: 600;
+	padding-left: 20px;
 }
 
 .kdh_contact .fields {
@@ -1520,7 +1504,7 @@ h6 {
 	border-radius: 6px;
 	overflow: hidden;
 	position: relative;
-	left: -300px;
+	left: -276px;
 
 }
 
