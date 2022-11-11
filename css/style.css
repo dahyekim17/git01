@@ -1133,7 +1133,7 @@ h6 {
 .kdh_project .item .left {
 	position: relative;
 	width: 100%;
-	height: 500px;
+	height: 450px;
 }
 
 .kdh_project .item .left img {
@@ -1144,18 +1144,17 @@ h6 {
 
 .kdh_project .item .left .main {
 	position: absolute;
-	top: 0px;
+	top: -42px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	border-radius: 12px;
 }
 
 .kdh_project .item .right {
-	width: 70%;
+	width: 60%;
 	margin-left: 35px;
 	position: relative;
 	padding: 20px 0px 140px 25px;
@@ -1189,7 +1188,7 @@ h6 {
 .kdh_project .item .right .details h3 span:before {
 	position: absolute;
 	content: "";
-	width: 410px;
+	width: 372px;
 	height: 2px;
 	background-color: #A4CACA;
 	left: 0px;
