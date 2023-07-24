@@ -193,11 +193,6 @@ input[type="color"],
 
 	border: 1px solid #eee;
 
-	/* 	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease; */
 }
 
 textarea:focus,
@@ -261,11 +256,7 @@ input[type="button"] {
 }
 
 
-/**
- * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
- * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
- */
+
 .owl-carousel,
 .owl-carousel .owl-item {
 	-webkit-tap-highlight-color: transparent;
@@ -464,13 +455,7 @@ input[type="button"] {
 
 
 
-/*!
- * Hamburgers
- * @description Tasty CSS-animated hamburgers
- * @author Jonathan Suh @jonsuh
- * @site https://jonsuh.com/hamburgers
- * @link https://github.com/jonsuh/hamburgers
- */
+
 .hamburger {
 	font: inherit;
 	display: inline-block;
